@@ -1,7 +1,7 @@
 /* Service worker — Laporan Harian MBG
    Menyimpan aplikasi di perangkat agar tetap terbuka tanpa internet.
    Data harian tetap disimpan terpisah oleh aplikasi. */
-const CACHE = 'mbg-harian-v1';
+const CACHE = 'mbg-harian-v2';
 const ASET = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
